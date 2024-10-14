@@ -1,0 +1,54 @@
+.left-container{
+  background-color: rgba(14, 14, 14, 1);
+}
+
+/* .left-menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.logo-container{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 20px;
+  margin: 20px 20%;
+  padding: 10px;
+  align-items: center;
+  img{
+     height: 40px; 
+  }
+  .logo{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    
+    .logo-name1{
+      color: rgb(255, 86, 86);
+    }
+  }
+}
+
+.left-menu-container{
+  margin: 50px;
+  color: white;
+
+}
+
+.general{
+  margin-top: 120%;
+}
+.genaral-item, .menu-item{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+

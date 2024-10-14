@@ -1,0 +1,26 @@
+.right-container{
+  background-color: rgba(33, 10, 10);
+  position: relative;
+}
+
+.now-playing{
+  color: white;
+  background-color: rgba(107, 0, 0, 1);
+  position: fixed;
+  bottom: 40px;
+  /* right: 3%; */
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 20px;
+  padding: 40px 10px;
+  font-size: 18px;
+  font-weight: 500;
+
+  .audio{
+    background-color: rgba(107, 0, 0, 1);
+  }
+}
